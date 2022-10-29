@@ -1,0 +1,9 @@
+.container-dados-destino{
+    display: flex;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+}
+.container-btn{
+   margin-top: 2%;
+   text-align: center;
+}

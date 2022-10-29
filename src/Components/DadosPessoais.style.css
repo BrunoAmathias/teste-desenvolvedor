@@ -1,0 +1,30 @@
+.DadosPessoais{
+    border: 1px solid black;
+    margin-top: 50px;
+    padding: 2%;
+    width: 35%;
+}
+.DadosPessoais h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.input{
+    width:50%;
+    height: 30px;
+    outline: none;
+}
+
+.campo-obrigatorio{
+    border: 1px red solid;
+    width:50%;
+    height: 30px;
+    outline: none;
+}

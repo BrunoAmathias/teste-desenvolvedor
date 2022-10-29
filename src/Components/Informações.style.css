@@ -1,0 +1,10 @@
+.container-informações{
+    border: black 1px solid;
+    margin: auto;
+    margin-top:5% ;
+    width: 90%
+}
+
+.container-informações p{
+    padding-top: 5px;
+}
