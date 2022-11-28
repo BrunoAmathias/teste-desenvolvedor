@@ -3,10 +3,15 @@
     margin-top: 50px;
     padding: 2%;
     width: 35%;
+    border-radius: 20px;
+    background-color: rgb(230, 230, 230);
+
 }
 .DadosPessoais h2{
     text-align: center;
     margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
+
 }
 
 .container-input{
@@ -20,11 +25,11 @@
     width:50%;
     height: 30px;
     outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.582);
 }
 
 .campo-obrigatorio{
     border: 1px red solid;
-    width:50%;
-    height: 30px;
-    outline: none;
 }

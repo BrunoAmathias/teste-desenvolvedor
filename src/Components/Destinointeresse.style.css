@@ -3,19 +3,26 @@
     margin-top: 50px;
     padding: 2%;
     width: 35%;
-
+    border-radius: 20px;
+    background-color: rgb(230, 230, 230);
 }
 .DestinoInteresse h2{
     text-align: center;
     margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
 }
 
-.container-select{
+.teste{
     display: flex;
     flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+.container-select{
     gap: 20px;
     text-align: center;
     margin-bottom: 20px;
+    
 }
 
 .select_obrigatorio{

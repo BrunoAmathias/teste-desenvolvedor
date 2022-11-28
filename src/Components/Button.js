@@ -2,6 +2,8 @@ import React from 'react'
 import { useContext } from 'react';
 import { Context } from '../contexto/Context';
 import './Button.style.css'
+import Buttoon from '@mui/material/Button';
+
 
 const Button = () => {
 
@@ -16,7 +18,7 @@ const Button = () => {
 
   return (
     <div>
-        <button onClick={putOnData}>Adicionar</button>
+        <Buttoon variant="contained" onClick={putOnData}>Adicionar</Buttoon>
     </div>
   )
   
@@ -25,8 +27,6 @@ const Button = () => {
 
   function putOnData (){
     if (nome.length >0 && email.length >0 && cpf.length===11 && tel.length===11 && selectedPaises.length > 0 && selectedCidades.length >0) {
-  
-
       setNome("")
       setEmail("")
       setTel("")

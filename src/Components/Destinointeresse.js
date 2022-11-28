@@ -67,6 +67,7 @@ const Destinointeresse = () => {
      { country.length > 0 ?
          <div>
       <h2>Destino de interesse</h2>
+      
       <div className='container-select'>
       <MultiSelect
       className={invalido ?'' :'select_obrigatorio'}
@@ -80,7 +81,7 @@ const Destinointeresse = () => {
         </div>
         <div className='container-select'>
         <MultiSelect
-        className={invalido ?'select' :'select_obrigatorio'}
+        className={invalido ?'' :'select_obrigatorio'}
         options={cidades}
         value={selectedCidades}
         onChange={setSelectedCidades}

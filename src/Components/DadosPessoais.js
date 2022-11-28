@@ -4,6 +4,8 @@ import { Context } from '../contexto/Context';
 import './DadosPessoais.style.css'
 import InputMask from 'react-input-mask';
 
+
+
 const DadosPessoais = () => {
 
   const {nome, setNome} = useContext(Context)
@@ -35,16 +37,18 @@ const DadosPessoais = () => {
       <h2>Dados pessoais</h2>
        <div className='container-input'>
         <label>
-            <InputMask className={invalido ? 'input': 'campo-obrigatorio'} value={nome} onChange={changeNome} placeholder='Nome' type="text" />
+        
+        <InputMask className={invalido ? 'input': 'input campo-obrigatorio'} value={nome} onChange={changeNome} placeholder='Nome' type="text" /> 
+      
         </label>
         <label>
-            <InputMask className={invalido ? 'input': 'campo-obrigatorio'} value={email} onChange={changeEmail} placeholder='Email' type="email" />
+            <InputMask className={invalido ? 'input': 'input campo-obrigatorio'} value={email} onChange={changeEmail} placeholder='Email' type="email" />
         </label>
         <label>
-            <InputMask className={invalido ? 'input': 'campo-obrigatorio'} value={tel}  onChange={changeTel} mask="(99)99999-9999" placeholder='Telefone'/>
+            <InputMask className={invalido ? 'input': 'input campo-obrigatorio'} value={tel}  onChange={changeTel} mask="(99)99999-9999" placeholder='Telefone'/>
         </label>
         <label>
-            <InputMask className={invalido ? 'input': 'campo-obrigatorio'} value={cpf} onChange={changecpf} mask="999.999.999-99" placeholder='CPF'/>
+            <InputMask className={invalido ? 'input': 'input campo-obrigatorio'} value={cpf} onChange={changecpf} mask="999.999.999-99" placeholder='CPF'/>
         </label>  
        </div>
     </div>

@@ -4,6 +4,9 @@ import Destinointeresse from "./Destinointeresse";
 import './Home.style.css'
 import  Button  from './Button';
 
+
+
+
 const Home = () => {
   return (<>
     <div className='container-dados-destino'>
@@ -13,7 +16,6 @@ const Home = () => {
     <div className="container-btn">
       <Button/>
     </div>
-    
     </>
   )
 }
